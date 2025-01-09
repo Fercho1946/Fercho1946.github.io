@@ -464,7 +464,7 @@ body {
 
   /*ZOOM INICIAL*/
   .wrapper {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -562,7 +562,7 @@ body {
   }
   
   .section.hero {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     background-image: url("../img/fondo.jpg");    
     background-size: cover; 
