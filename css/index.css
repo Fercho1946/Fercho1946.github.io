@@ -480,7 +480,7 @@ body {
   .section.hero {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/fondo.jpg");    
+    background-image: url("../img/fondo1.jpg");    
     background-size: cover; 
     background-position: center;
   }
@@ -568,7 +568,7 @@ body {
   .section.hero {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/fondo.jpg");    
+    background-image: url("../img/fondo1.jpg");    
     background-size: cover; 
     background-position: center;
   }
