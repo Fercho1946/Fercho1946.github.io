@@ -506,6 +506,8 @@ body {
   .pasaje_biblico {
     margin-top: 70px;
     margin-bottom: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
     
     & p {
       font-size: 18px;
