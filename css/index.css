@@ -499,7 +499,7 @@ body {
   }
 }
 
-/* Media queries para celulares más grandes */
+/* Media queries para tablets */
 @media (min-width: 481px) and (max-width: 1000px) {
 
   /*PASAJE BIBLICO*/
