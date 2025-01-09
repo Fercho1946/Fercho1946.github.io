@@ -420,8 +420,8 @@ body {
   .pasaje_biblico {
     margin-top: 50px;
     margin-bottom: 40px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 80px;
+    margin-left: 80px;
 
     & p {
       font-size: 18px;
@@ -508,8 +508,8 @@ body {
   .pasaje_biblico {
     margin-top: 70px;
     margin-bottom: 60px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 80px;
+    margin-left: 80px;
     
     & p {
       font-size: 18px;
