@@ -464,7 +464,7 @@ body {
 
   /*ZOOM INICIAL*/
   .wrapper {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -508,11 +508,11 @@ body {
     margin-bottom: 60px;
     
     & p {
-      font-size: 22px;
+      font-size: 18px;
     }
 
     & i {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
@@ -544,7 +544,7 @@ body {
       & iframe{
       width: 600px;
       height: 350px;
-      border-radius: 20px;
+      border-radius: 20px;    
     }
   }
 
@@ -562,7 +562,7 @@ body {
   }
   
   .section.hero {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     background-image: url("../img/fondo.jpg");    
     background-size: cover; 
