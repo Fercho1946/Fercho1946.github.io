@@ -500,7 +500,7 @@ body {
 }
 
 /* Media queries para celulares más grandes */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1000px) {
 
   /*PASAJE BIBLICO*/
   .pasaje_biblico {
