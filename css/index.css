@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+* {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    margin: 0;    
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+    color: #fff;
+
+    & hr {
+      width: 80%;
+      border:  1px solid #a88718;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .section.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fondo.jpg");    
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .pasaje_biblico { 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;    
+
+    & p{
+      margin: 0;
+      color: #000;
+      text-align: center;      
+      font-size: 25px;
+    }
+  }
+
+  .historia_amor{    
+
+    & h3{
+      color: #000;      
+      font-size: 35px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    & .contenido{
+      display: flex;    
+      justify-content: space-between;
+      align-items: center; 
+      width: 100%;
+      height: 100%;
+      margin-top: -10px;
+    }
+
+    & p{
+      padding-right: 50px;
+      padding-left: 50px;
+      width: 50%;
+      height: auto;
+      color: #000;
+      text-align: justify;
+      align-items: center;
+      font-size: 20px;      
+    }
+
+    & img{
+      width: 500px;
+      height: 500px;
+      object-fit: cover;      
+      padding: 30px 50px 30px 0;
+      z-index: 1;
+    }    
+  }
+
+  .borde{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  
+  .itinerario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    & h3 {
+      color: #000;      
+      font-size: 35px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    
+    & .evento {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      box-shadow: 2px 4px 2px 4px rgba(0, 0, 0, 0.1);
+      color: #000;
+    }
+    
+    & .evento i {
+      font-size: 20px;
+      color: #d4a100;
+      margin-right: 10px;
+    }
+    
+    & .evento strong {
+      color: #333;
+    }
+  }
+
+  .codigo_vestimenta{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    & h3 {
+      color: #000;      
+      font-size: 35px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    & .opciones {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    & .opcion {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+
+    & .opcion i {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    & .opcion h2 {
+      color: #333;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    & .opcion p {
+      color: #555;
+      font-size: 14px;
+    }
+  }
+
+  .lluvia_sobre{
+    text-align: center;    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    
+    & h3 {
+      color: #000;      
+      font-size: 35px;
+      margin-bottom: 30px;      
+      text-align: center;
+    }
+    
+    & .opciones {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    & .opcion {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    
+    & .opcion i {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    
+    & .opcion h2 {
+      color: #333;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    
+    & .opcion p {
+      color: #555;
+      font-size: 14px;
+    }
+  }
+  
+  .contador {
+    text-align: center;    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    & h3 {
+      color: #000;      
+      font-size: 35px;
+      margin-bottom: 30px;      
+      text-align: center;
+    }
+    
+    & .tiempo {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    & .unidad {
+      background-color: #d4a100;
+      color: #fff;
+      padding: 25px 15px 25px;
+      border-radius: 8px;
+      width: 100px;
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    & .unidad span {
+      font-size: 40px;
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    & .unidad p {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+
+/* Estilo del botón principal */
+.asistencia{
+  text-align: center;    
+  padding-left: 20px;
+  padding-right: 20px;  
+  padding-bottom: 20px;
+
+  & p {
+    color: #000;      
+    font-size: 20px;
+    margin-bottom: 30px;      
+    text-align: center;
+  }
+
+  & img{
+    width: 50px;
+    height: auto;
+  }
+
+  & #confirmarAsistenciaBtn {
+    background-color: #e9b91e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  & #confirmarAsistenciaBtn:hover {
+    background-color: #a88718;
+  }
+
+  /* Estilo del modal */
+  & #asistenciaModal {
+    color: #000;
+    border-radius: 10px;
+    animation: fadeIn 0.3s ease-in-out;
+    z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
+  }
+
+  & #modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Estilo del botón cerrar */
+  & #cerrarModalBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  & #cerrarModalBtn:hover {
+    background-color: #b02a37;
+  }
+
+  /* Estilo del input y el botón de continuar */
+  & #cantidadInvitados {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  & #continuarBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  & #continuarBtn:hover {
+    background-color: #218838;
+  }
+
+  /* Animación de entrada */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+.mapa{
+  text-align: center;    
+  padding-left: 20px;
+  padding-right: 20px;  
+  padding-bottom: 50px;
+
+  & h1 {
+    color: #000;      
+    font-size: 30px;
+    margin-bottom: 30px;      
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  & img{
+    width: 50px;
+    height: auto;
+  }
+}
