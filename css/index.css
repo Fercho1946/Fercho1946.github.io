@@ -96,7 +96,7 @@ body {
     --d: 10s;
     display: grid;
     width: 220px;
-    padding-right: 150px;
+    padding-right: 180px;
   }
   
   .gallery > img {
