@@ -25,8 +25,7 @@ body {
   
   .section.hero {
     width: 100%;
-    height: 100vh;
-    background-image: url("../img/1920--.jpg");
+    height: 100vh;    
     background-size: cover; 
     background-position: center;
   }
@@ -541,8 +540,7 @@ body {
     
   .section.hero {
     width: 100%;
-    height: 100%;
-    background-image: url("../img/Inicio480--.jpg");
+    height: 100%;    
     background-size: cover; 
     background-position: center;
   }
@@ -940,74 +938,7 @@ body {
 
     & #confirmarAsistenciaBtn:hover {
       background-color: #a88718;
-    }
-
-    /* Estilo del modal */
-    & #asistenciaModal {
-      color: #000;
-      border-radius: 10px;
-      animation: fadeIn 0.3s ease-in-out;
-      z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
-    }
-
-    & #modalContent {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    /* Estilo del botón cerrar */
-    & #cerrarModalBtn {
-      background-color: #dc3545;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    & #cerrarModalBtn:hover {
-      background-color: #b02a37;
-    }
-
-    /* Estilo del input y el botón de continuar */
-    & #cantidadInvitados {
-      width: 50%;
-      padding: 10px;
-      margin: 20px 0;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    & #continuarBtn {
-      background-color: #28a745;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-      transition: background-color 0.3s;
-    }
-
-    & #continuarBtn:hover {
-      background-color: #218838;
-    }
-
-    /* Animación de entrada */
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: scale(0.9);
-      }
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
+    }    
   }
 
   .mapa{
@@ -1466,74 +1397,7 @@ body {
 
     & #confirmarAsistenciaBtn:hover {
       background-color: #a88718;
-    }
-
-    /* Estilo del modal */
-    & #asistenciaModal {
-      color: #000;
-      border-radius: 10px;
-      animation: fadeIn 0.3s ease-in-out;
-      z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
-    }
-
-    & #modalContent {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    /* Estilo del botón cerrar */
-    & #cerrarModalBtn {
-      background-color: #dc3545;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    & #cerrarModalBtn:hover {
-      background-color: #b02a37;
-    }
-
-    /* Estilo del input y el botón de continuar */
-    & #cantidadInvitados {
-      width: 50%;
-      padding: 10px;
-      margin: 20px 0;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    & #continuarBtn {
-      background-color: #28a745;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-      transition: background-color 0.3s;
-    }
-
-    & #continuarBtn:hover {
-      background-color: #218838;
-    }
-
-    /* Animación de entrada */
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: scale(0.9);
-      }
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
+    }    
   }
 
   .mapa{
