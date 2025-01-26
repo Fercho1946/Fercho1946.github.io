@@ -31,7 +31,7 @@ body {
     background-position: center;
   }
 
-  @media (min-width: 1401px) {
+  @media (min-width: 1300px) {
     .section.hero img {
       display: none;
     }
@@ -980,7 +980,7 @@ body {
 }
 
 /* Media queries para pantallas medianas */
-@media (min-width: 600px) and (max-width: 1400px) {
+@media (min-width: 600px) and (max-width: 1299px) {
   * {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
