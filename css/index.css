@@ -30,6 +30,13 @@ body {
     background-size: cover; 
     background-position: center;
   }
+
+  @media (min-width: 1001px) {
+    .section.hero img {
+      display: none;
+    }
+  }
+  
   
   .pasaje_biblico { 
     margin-right: auto;
